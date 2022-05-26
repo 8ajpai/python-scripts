@@ -1,7 +1,11 @@
+# Utkarsh Bajpai @2022
+# This program finds fibonacci numbers and uses lru-cache for speed
+
+
 
 from functools import lru_cache
 
-
+#Define the lru-cache decorator over the fibonacci function
 @lru_cache
 def fibonacci(num):
     if num <=1:
